@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calc</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <form>
+        <input type="text" class="up-money" id="up-money" placeholder="сумма заказа">
+        <input type="text" class="up-percent1" id="up-percent1" placeholder="процент Антона">
+        <input type="text" class="up-percent2" id="up-percent2" placeholder="процент менеджера">
+        <input type="text" class="up-percent3" id="dValue" placeholder="курс валюты">
+        <input type="button" value="calc" class="sum">
+    </form>
+
+    <div class="result">
+        <div class="title">Сумма с учётом комиссии upWork</div>
+        <div class="wPercent"></div>
+        <div class="title">Мои деньги</div>
+        <div class="myMoney--usd"></div>
+        <div class="title">Мои деньги в гривне</div>
+        <div class="myMoney--uah"></div>
+        <div class="title">Процент Антону</div>
+        <div class="antonPercent--usd"></div>
+        <div class="title">Процент Антону в гривне</div>
+        <div class="antonPercent--uah"></div> 
+
+        <div class="title">Процент менеджера</div>
+        <div class="managerPercent--usd"></div>
+        <div class="title">Процент менеджера в гривне</div>
+        <div class="managerPercent--uah"></div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
